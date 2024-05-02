@@ -1,0 +1,112 @@
+body{
+    background-image: url(../IMAGENES/paisajito.jpg);
+    background-size: 100% 118%;
+    text-align: center;
+    font-family:monospace;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+.bienvenido{
+    background-color: rgba(255, 238, 0, 0.2);
+    width: auto;
+    padding: 1%;
+    border: 4PX solid ;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size:30px ;
+}
+
+h3{
+    letter-spacing: 7PX;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(8, 8, 8, 0.7);
+}
+
+nav{
+    margin-top: 0px;
+    display: flex;
+    border: 3px solid black;
+    border-top: 0;
+    background-color: rgba(8, 8, 8, 0.7);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+} 
+
+nav ol{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+ol a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 5PX;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+
+ol a:hover{
+    color: yellow;
+    background-color: rgb(39, 38, 38);
+}
+
+
+li{
+    font-size: 20px;
+    margin: 2%;
+
+}
+
+.nombre{
+    border-radius: 20px;
+    display: inline-block;
+    padding: 15px;
+    border: 7px double white;
+    color: white;
+    font-size: 24px;
+    background: rgba(8, 8, 8, 0.7);
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+.p1, .p2{
+    border: 8px double black;
+    margin: 10px 40px;
+    background-color: rgba(255, 0, 0, 0.1);
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+
+.p3{
+    border: 3px solid black;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.fachero{
+    border-radius: 12%;
+    border: 5px solid black;
+    align-items: center;
+}
+
+.contac{
+
+}
