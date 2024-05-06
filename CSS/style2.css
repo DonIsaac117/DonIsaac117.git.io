@@ -16,13 +16,15 @@ header{
 }
 
 .bienvenido{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
     letter-spacing: 6px;
     display: flex;
     justify-content: center;
     background: linear-gradient(to top, rgba(255, 255, 255, 0.25), transparent);
     width: auto;
     padding: 0;
-   
+    text-shadow: 2px 2px 2px white;
 }
 
 .titulo{
@@ -41,8 +43,6 @@ nav{
     border-top: none;
     text-shadow: 0px 0px 7px rgb(255, 255, 255) ;
     background-color: rgba(8, 8, 8, 0.7);
-
-    
 }
 
 nav ol{
@@ -55,6 +55,8 @@ nav ol{
     align-items: center;
 }
 
+
+
 ol a{
     padding: 0.6%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -62,6 +64,7 @@ ol a{
     text-decoration: none;
     width: 20%;
 }
+
 
 li{
     letter-spacing: 5PX;
@@ -87,8 +90,16 @@ a li:hover{
     transform: scale(1.05);
 }
 
-
-
+.inicio:hover{
+    color: yellow;
+    text-shadow: 0px 0px 22px yellow;
+    border: px solid yellow;
+    box-shadow: 0 0 20px yellow ;
+    transition: transform 0.3s;
+    transform: scale(1.2);
+    letter-spacing: 8px;
+    border-radius: 15px;
+}
 
 section{
     display: flex;
@@ -107,22 +118,56 @@ ul{
     margin: 0;
 }
 
-.contacto{
+.tittle{
     background: linear-gradient(to top, rgba(255, 255, 255, 0.35), transparent);
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 30px;
     color: white;
     text-shadow: 0 0 20px black ;
-    margin: 80px 0px 40px;
+    margin: 50px 0px 70px;
     padding: 30px 90PX 30px 125px ;
-    font-size: 45px;
+    font-size: 40px;
     border-radius: 50px;
     box-shadow: 0 0 40px white
 }
 
-
-
 ul li{
+    box-shadow: 0 0 12px white;
+    padding: 40px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin: 7px 70px;
     text-decoration: none;
     list-style: none;
+    background: rgba(3, 3, 3, 0.35);
+}
+
+
+h2{
+    margin-top: 0px;
+    letter-spacing: 10px;
+    font-size: 32px;
+    text-shadow: 0 0 15px white;
+}
+
+.item i{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: aqua;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px 100px 10px;
+    text-shadow: 0 0 10px black;
+}
+
+footer{
+    margin: 10px;
+    font-size: 14px;
+    color: white;
 }

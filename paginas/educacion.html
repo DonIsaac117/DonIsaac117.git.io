@@ -1,11 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>educacion</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="/CSS/style2.css">
+    <style>
+        section{
+            margin: 50px 0 0 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background:rgba(3, 3, 3, 0.35);
+        }
+
+        .descrip{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0px 60px 45px  60px;
+            background:rgba(3, 3, 3, 0.55);
+            padding: 20px;
+        }
+
+        p{
+            margin: 20px;
+            font-size: 22px;
+            color: white;
+            letter-spacing: 3px ;
+            font-style: oblique;
+            font-family: sans-serif;
+        }
+
+
+        table, tr, th, td, caption{
+            color: white;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid white;
+            border-collapse: collapse;
+        }
+
+        table{
+            margin-bottom: 150px;
+            box-shadow: 0 0 15px white;
+        }
+
+        caption{
+            letter-spacing: 10px;
+            padding: 15px;
+            font-size: 30px;
+            border-bottom: none;
+            background: linear-gradient( rgba(255, 255, 255, 0.25), transparent);
+        }
+
+        th{
+            color: yellow;
+            background: rgba(3, 3, 3, 0.45);
+            letter-spacing: 10px;
+            padding: 23px;
+            font-size: 30px;
+            text-shadow: 0 0 10px white;
+        }
+
+        td{
+            letter-spacing: 3px;
+            padding: 19px;
+            font-size: 20px;
+        }
+    </style>
 </head>
 
 <body> 
@@ -18,7 +85,7 @@
 
             <nav>
                 <ol>  
-                    <a href="../index.html">
+                    <a href="../index.html" class="inicio">
                         <li>Inicio <i class="fas fa-home"></i></li> 
                         </a>
                     <a href="Contacto.html"> 
@@ -40,23 +107,46 @@
     
     <section>
 
-        <ul>
-            <h2>Educacion</h2>
-            <li>2020-2021 <br>
-                I.E.D RICARDO HINESTROZA DAZA
-                Bachiller Técnico en Sistemas
-            </li>
+        <h1>
+            <h2 class="tittle">ESTUDIOS</h2>
+        </h1>
 
-            <li>
-                2023 <br>
-                Sena - Complementario en herramientas ofimaticas
-            </li>
+        <div class="descrip">
+            <p>
+                En la siguiente tabla que aparece a continuacion se puede visualizar los estudios academicos que he tenido a lo largo de mi vida, es decir, los lugares en los que me he capacitado practicado y adquirido conocimiento la tabla esta dividida por su encabezado donde se muestran el año, el lugar donde adquiri el estudio y conocimiento y finalmente el titulo obtenido.
+            </p>
+        </div>
 
-            <li>
-                2023 <br>
-                Sena - Tecnólogo en Analisis y desarrllo de software
-            </li>
-        </ul>
+        <table>
+            <caption>Estudios</caption>
+            <tbody>
+                <tr>
+                    <th>AÑO</th>
+                    <th>LUGAR</th>
+                    <th>TÍTULO</th>
+                </tr>
+                <tr>
+                    <td>2011-2016</td>
+                    <td>I.E.D RICARDO GONZALES</td>
+                    <td>Primaria Básica</td>
+                </tr>
+                <tr>
+                    <td>20-2021</td>
+                    <td>I.E.D RICARDO HINESTROZA DAZA</td>
+                    <td>Bachiller Técnico en Sistemas</td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td rowspan="2">SENA</td>
+                    <td>Complementario en herramientas ofimaticas</td>
+                </tr>
+                <tr>
+                    <td>2022-2024</td>
+                    <td>Tecnólogo en Analisis y desarrllo de software
+                    </li></td>
+                </tr>
+            </tbody>
+        </table>
             
     </section>
 

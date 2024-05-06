@@ -46,6 +46,7 @@ nav ol{
     list-style: none;
     padding: 0;
     margin: 0;
+    flex-grow: 1;
     justify-content: center;
 }
 
@@ -174,11 +175,6 @@ h4 {
     color: white;
     font-size: 20px;
 }
-
-.cont2 a{
-    
-}
-
 
 .contac{
     font-size: 18px;
