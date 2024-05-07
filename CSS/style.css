@@ -5,7 +5,7 @@ body{
     font-family:monospace;
     margin: 0;
     margin-top: 0;
-    padding: 0;
+    padding: 0; 
 }
 
 header{
@@ -20,7 +20,6 @@ header{
     background-color: rgba(255, 238, 0, 0.2);
     width: auto;
     padding: 1%;
-    border: 4px solid ;
 }
 
 .titulo{
@@ -29,10 +28,8 @@ header{
     font-size:35px ;
 }
 
-
 nav{
     display: flex;
-    border: 4px solid black;
     border-top: 0;
     text-shadow: 0px 0px 7px rgb(255, 255, 255) ;
     background-color: rgba(8, 8, 8, 0.7);
@@ -41,7 +38,6 @@ nav{
 } 
 
 nav ol{
-    
     display: flex;
     list-style: none;
     padding: 0;
@@ -52,7 +48,8 @@ nav ol{
 
 ol a{
     padding: 5px;
-    border-right: 5px solid black;
+    border: 2px solid white;
+    box-shadow: 0 0 15px black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     text-decoration: none;
@@ -70,8 +67,6 @@ ol a:hover{
     box-shadow: 0 0 20px yellow;
 }
 
-
-
 li{
     letter-spacing: 5PX;
     font-size: 20px;
@@ -82,7 +77,9 @@ li{
     padding: 0;
     margin: 0;
     display: flex;
-    border: 4px solid black;
+    border: 2px solid white;
+    box-shadow: 0 0 15px black;
+    text-shadow: 0 0 15px black;
     border-top: none;
     justify-content: space-evenly;
     align-items: center;
@@ -94,7 +91,7 @@ li{
     width: 100%;
     color: white;
     padding: 0px;
-    font-size: 15px;
+    font-size: 13.5px;
     margin: 10px;
 }
 
@@ -103,29 +100,29 @@ li{
     background: rgba(0, 0, 0, 0.5);
     display: flex; 
     align-items: center;
+    margin: 0;
     justify-content: center;
     border: 0px solid black;
-    margin-bottom: 0px;
     flex-direction: column; 
     text-align: center;
 
 }
 
 .yo2{
-    margin-top: 20px;
+    margin-top: 30px;
     border: 9px double white;
     background: rgba(0, 0, 0, 0.4);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column; 
-    width: 60%;
+    width: 70%;
     height: 70%;
 }
 
 .nombre {
     letter-spacing: 2px;
-    width: 96.5%;
+    width: 96%;
     margin-top: 0px;
     padding: 20px;
     border: 9px double white;
@@ -154,7 +151,7 @@ h4 {
 }
 
 .cont2{
-    border: 4px solid black;
+    border: 3px solid black;
     margin-top: 4%;
     display: flex;
     flex-direction: column;
@@ -183,6 +180,15 @@ h4 {
     text-decoration: none;
     text-shadow: 0px 0px 10px rgb(0, 238, 255) ;
 }
+
+.contac:hover{
+    color: yellow;
+    text-shadow: 0px 0px 20px yellow;
+    font-size: 20px;
+    transform: (1.1);
+    transition: 1s;
+}
+
 
 footer{
     margin: 10px;
