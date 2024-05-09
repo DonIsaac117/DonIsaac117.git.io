@@ -1,23 +1,157 @@
-body{
+body {
     background-image: url(../IMAGENES/paisaje5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
-    font-family:monospace;
+    font-family: monospace;
     margin: 0;
     padding: 0;
-} 
-
-
-main{
-    display: flex;
-    flex-direction: column;
-    margin: 5%;
-    justify-content: center;
-    align-items: center;
 }
 
-form{
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to bottom, black, transparent);
+    padding-bottom: 10%;
+}
+
+.title {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.35), transparent);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 20px black ;
+    margin: 5% 0px 5%;
+    padding: 20px 60px 20px 70px;
+    font-size: 40px;
+    border-radius: 50px;
+    box-shadow: 0 0 40px white;
+}
+
+main {
+    margin-top: -8%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: slideDown 1s ease-out; /* Animación CSS para el desplazamiento hacia abajo */
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+form {
+    display: flex;
+    margin-top: -30px;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 0 25px white;
+    background: rgba(8, 8, 8, 0.7)  ;
+    flex-direction: column;
+    padding: 3% 4% 4% 4%;
+    align-items: center;
+    border-radius: 4%;
+}
+
+.titulo2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    text-shadow: 0 0 15px white;
+}
+
+form label {
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 35px 0px 10px 0px;
+    font-size: 15px;
+    text-shadow: 0 0 10px black;
+}
+
+form input {
+    font-size: 15px;
+    text-align: center;
+    padding: 6px 50px 6px 50px;
+    border-radius: 15px;
+    border: 3px solid white;
+    background: transparent;
+    color: white;
+    transition: 0.7s;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0; /
+}
+
+form input:hover{
+    letter-spacing: 1px;
+    padding: 7px 70px 7px 70px;
+    background: black;
+    border-radius: 0;
+    transition: 0.7s;
+    transform: scale(1);
+    label:hover{
+        text-shadow: 0 0 15px white;
+    }
+}
+
+#email {
+    margin-bottom: 8%;
+
+}
+
+.boton{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    border: 3px solid white;
+    width:110px;
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    transition: 0.7s;
+}
+
+button:hover{
+    font-size: 18;
+    letter-spacing: 4px;
+    border-radius: 0;
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+}
+
+footer {
+    text-shadow: 0 0 12px white  ;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    color: white;
 }

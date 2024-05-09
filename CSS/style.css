@@ -54,6 +54,7 @@ ol a{
     color: white;
     text-decoration: none;
     width: 100%;
+    transition: 0.5s;
 }
 
 
@@ -61,7 +62,7 @@ ol a:hover{
     color: yellow;
     background-color: black;
     text-shadow: 0px 0px 7px rgb(246, 255, 0);
-    transition: transform 0.2s;
+    transition: 0.6s;
     transform: scale(1.1);
     border: 2px solid yellow;
     box-shadow: 0 0 20px yellow;
@@ -179,6 +180,7 @@ h4 {
     list-style: none;
     text-decoration: none;
     text-shadow: 0px 0px 10px rgb(0, 238, 255) ;
+    transition: 0.5s;
 }
 
 .contac:hover{
@@ -188,7 +190,6 @@ h4 {
     transform: (1.1);
     transition: 1s;
 }
-
 
 footer{
     margin: 10px;
